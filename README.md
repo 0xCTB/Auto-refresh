@@ -1,6 +1,6 @@
 # Prolific auto-refresh
 
-The main goal of this script is to get our beloved "start now" button back, which was recently hidden by Prolific and replaced by a rather ugly "Study is full". It accomplishes that by automatically refreshing the page as long as the current study is full. When a spot is available again it'll stop refreshing and you can finally spam the button (and hopefully get the study).
+The main goal of this script is to get our beloved "start now" (or "reserve place") button back, which was recently hidden by Prolific and replaced by a rather ugly "Study is full". It accomplishes that by automatically refreshing the page as long as the current study is full. When a spot is available again it'll stop refreshing and you can finally spam the button (and hopefully get the study).
 
 Currently it only works on Windows and with Chrome.
 
