@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 
 def login(driver):
     try:
@@ -18,7 +18,7 @@ def login(driver):
         password_element.send_keys("INSERT YOUR PASSWORD HERE", Keys.ARROW_DOWN)
         time.sleep(1)
         driver.find_element_by_id("login").click()
-    except NoSuchElementException as e:
+    except TimeoutException as e:
         print(f"Something went wrong while logging in, try again. Error: {e}")
 
 def login_handler(driver, url):
