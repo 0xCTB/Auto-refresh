@@ -24,3 +24,7 @@ You're almost done. Three more things need to be modified in order for the scrip
 3) Edit "refresher.py" (by replacing "INSERT YOUR STUDY URL HERE") with the link to the study on which you want to use the script.
 
 Congratulations, the prep work is done. You can start it by double clicking on start_script.bat.
+
+
+
+For any doubts regarding the setup or any bugs you may encounter, you can also let me know through discord: https://discord.gg/RSBXApxJdB
